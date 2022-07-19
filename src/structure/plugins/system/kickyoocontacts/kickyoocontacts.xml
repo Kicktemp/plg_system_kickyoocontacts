@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.8" group="system" method="upgrade">
+	<name>PLG_SYSTEM_KICKYOOCONTACTS</name>
+	<creationDate>[DATE]</creationDate>
+	<author>[AUTHOR]</author>
+	<authorEmail>[AUTHOR_EMAIL]</authorEmail>
+	<authorUrl>[AUTHOR_URL]</authorUrl>
+	<copyright>[COPYRIGHT]</copyright>
+	<license>[LICENSE]</license>
+	<version>[VERSION]</version>
+	<changelogurl>https://raw.githubusercontent.com/Kicktemp/plg_system_kickyoocontacts/main/changelog.xml</changelogurl>
+	<description>PLG_SYSTEM_KICKYOOCONTACTS_XML_DESCRIPTION</description>
+	<namespace path="src">Kicktemp\Plugin\System\Contacts</namespace>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<filename plugin="kickyoocontacts">kickyoocontacts.php</filename>
+		<filename>bootstrap.php</filename>
+		<folder>language</folder>
+		<folder>src</folder>
+	</files>
+	<config>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="[PROJECT_NAME]">
+			https://raw.githubusercontent.com/Kicktemp/plg_system_kickyoocontacts/main/update.xml
+		</server>
+	</updateservers>
+</extension>
