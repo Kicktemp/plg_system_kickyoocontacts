@@ -3,12 +3,8 @@
 		<element>kickyoocontacts</element>
 		<type>plugin</type>
 		<version>1.0.0</version>
-		<fix>
-			<item>images in Joomla 4</item>
-		</fix>
-		<addition>
-			<item>Content Languages as Dynamic Source</item>
-			<item>Current Languages as Dynamic Source</item>
-		</addition>
+		<note>
+			<item>first version</item>
+		</note>
 	</changelog>
 </changelogs>

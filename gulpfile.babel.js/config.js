@@ -62,14 +62,14 @@ export const config = {
   },
   packagefiles: [
     {
-      src: './releasefiles/plugins/system/kickyooopengraph/**/**',
-      dest: 'sourcefiles/plg_system_kickyooopengraph'
+      src: './releasefiles/plugins/system/kickyoocontacts/**/**',
+      dest: 'sourcefiles/plg_system_kickyoocontacts'
     }
   ],
   archiver: [
     {
       destination : 'archives/',
-      name: 'plg_system_kickyooopengraph',
+      name: 'plg_system_kickyoocontacts',
       suffixversion: true,
       types: [
         {
@@ -81,7 +81,7 @@ export const config = {
         }
       ],
       folders: [
-        'sourcefiles/plg_system_kickyooopengraph'
+        'sourcefiles/plg_system_kickyoocontacts'
       ],
       files: [
       ]
